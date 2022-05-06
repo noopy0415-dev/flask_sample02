@@ -13,5 +13,10 @@ def hello_member():
     return "Hello Member"
 
 
+@app.route("/owner")
+def hello_owner():
+    return "Hello Owner"
+
+
 if __name__ == "__main__":
     app.run(debug=True)
