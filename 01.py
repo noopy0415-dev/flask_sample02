@@ -8,6 +8,11 @@ def hello_world():
     return "Hello World"
 
 
+@app.route("/member")
+def hello_member():
+    return "Hello Member"
+
+
 @app.route("/owner")
 def hello_owner():
     return "Hello Owner"
